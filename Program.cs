@@ -14,6 +14,7 @@ namespace ProvaGitHubActions
             {
                 nameUser = Console.ReadLine();
                 Console.WriteLine(MSG2, nameUser);
+                Console.WriteLine(MSG3);
             }
             catch (FormatException)
             {
