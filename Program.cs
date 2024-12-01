@@ -7,6 +7,7 @@ namespace ProvaGitHubActions
         {
             const string MSG1 = "Hola! Inserta el teu nom:";
             const string MSG2 = "Hola {0}!";
+            const string MSG3 = "Adeu!";
             const string ErrorMsg = "El valor introduit no es valid: ";
             string nameUser;
             Console.WriteLine(MSG1);
@@ -14,6 +15,7 @@ namespace ProvaGitHubActions
             {
                 nameUser = Console.ReadLine();
                 Console.WriteLine(MSG2, nameUser);
+                Console.WriteLine(MSG3);
             }
             catch (FormatException)
             {
